@@ -1,0 +1,19 @@
+=== Summary Statistics for SJF ===
+Time Quantum: 10000
+Context Switch Time: 5
+Total Orders Completed: 150
+
+--- Waiting Time ---
+Average: 788,79 ms
+Median: 72 ms
+Maximum: 8366 ms
+
+--- Turnaround Time ---
+Average: 847,51 ms
+Median: 126 ms
+Maximum: 8566 ms
+
+--- Response Time ---
+Average: 788,79 ms
+Median: 72 ms
+Maximum: 8366 ms

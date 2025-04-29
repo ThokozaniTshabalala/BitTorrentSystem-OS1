@@ -1,0 +1,19 @@
+=== Summary Statistics for FCFS ===
+Time Quantum: 10000
+Context Switch Time: 5
+Total Orders Completed: 150
+
+--- Waiting Time ---
+Average: 1339,31 ms
+Median: 1448 ms
+Maximum: 2198 ms
+
+--- Turnaround Time ---
+Average: 1397,97 ms
+Median: 1511 ms
+Maximum: 2282 ms
+
+--- Response Time ---
+Average: 1339,31 ms
+Median: 1448 ms
+Maximum: 2198 ms

@@ -1,0 +1,22 @@
+=== Summary Statistics for RR ===
+Time Quantum: 50
+Context Switch Time: 5
+Total Orders Completed: 150
+
+--- Waiting Time ---
+Average: 849,95 ms
+Median: 1004 ms
+Maximum: 1316 ms
+
+--- Turnaround Time ---
+Average: 1445,74 ms
+Median: 1223 ms
+Maximum: 4788 ms
+
+--- Response Time ---
+Average: 849,95 ms
+Median: 1004 ms
+Maximum: 1316 ms
+
+--- Context Switches ---
+Average switches per order: 0,59
