@@ -1,0 +1,56 @@
+=== Summary Statistics for RR ===
+Time Quantum: 10
+Context Switch Time: 5
+Total Orders Completed: 150
+Context Switches
+Average switches per order: 5,06
+
+ITERATION 1
+
+Algorithm    Iteration    Metric                Average        Median    Max
+RR           1           Waiting Time          305,75 ms      362 ms    446 ms
+RR           1           Turnaround Time       1994,40 ms     1376 ms   8244 ms
+RR           1           Response Time         305,75 ms      362 ms    446 ms
+RR           1           Completion Time       7310,11 ms     7546 ms   13668 ms
+RR           1           Start Time            5621,46 ms     5214 ms   13555 ms
+RR           1           Arrival Time          5315,71 ms     4795 ms   13555 ms
+
+ITERATION 2
+
+Algorithm    Iteration    Metric                Average        Median    Max
+RR           2           Waiting Time          307,47 ms      379 ms    447 ms
+RR           2           Turnaround Time       2010,47 ms     1351 ms   8356 ms
+RR           2           Response Time         307,47 ms      379 ms    447 ms
+RR           2           Completion Time       7316,73 ms     7577 ms   13671 ms
+RR           2           Start Time            5613,73 ms     5227 ms   13560 ms
+RR           2           Arrival Time          5306,26 ms     4811 ms   13560 ms
+
+ITERATION 3
+
+Algorithm    Iteration    Metric                Average        Median    Max
+RR           3           Waiting Time          301,00 ms      346 ms    452 ms
+RR           3           Turnaround Time       1980,27 ms     1348 ms   8198 ms
+RR           3           Response Time         301,00 ms      346 ms    452 ms
+RR           3           Completion Time       7301,93 ms     7550 ms   13632 ms
+RR           3           Start Time            5622,66 ms     5214 ms   13520 ms
+RR           3           Arrival Time          5321,66 ms     4810 ms   13520 ms
+
+ITERATION 4
+
+Algorithm    Iteration    Metric                Average        Median    Max
+RR           4           Waiting Time          301,18 ms      356 ms    452 ms
+RR           4           Turnaround Time       1973,99 ms     1347 ms   8281 ms
+RR           4           Response Time         301,18 ms      356 ms    452 ms
+RR           4           Completion Time       7335,85 ms     7617 ms   13706 ms
+RR           4           Start Time            5663,04 ms     5263 ms   13593 ms
+RR           4           Arrival Time          5361,86 ms     4853 ms   13593 ms
+
+ITERATION 5
+
+Algorithm    Iteration    Metric                Average        Median    Max
+RR           5           Waiting Time          300,25 ms      354 ms    451 ms
+RR           5           Turnaround Time       1968,54 ms     1346 ms   8266 ms
+RR           5           Response Time         300,25 ms      354 ms    451 ms
+RR           5           Completion Time       7322,79 ms     7612 ms   13657 ms
+RR           5           Start Time            5654,49 ms     5263 ms   13546 ms
+RR           5           Arrival Time          5354,25 ms     4851 ms   13546 ms

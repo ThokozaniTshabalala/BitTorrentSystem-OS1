@@ -208,6 +208,19 @@ public class Barman extends Thread {
 					.mapToLong(order -> startTimes.getOrDefault(order, 0L) - arrivalTimes.getOrDefault(order, 0L))
 					.average().orElse(0);
 			
+			// Calculate average times relative to simulation start
+			double avgArrivalTime = completedOrders.stream()
+					.mapToLong(order -> arrivalTimes.getOrDefault(order, 0L) - simulationStartTime)
+					.average().orElse(0);
+			
+			double avgStartTime = completedOrders.stream()
+					.mapToLong(order -> startTimes.getOrDefault(order, 0L) - simulationStartTime)
+					.average().orElse(0);
+			
+			double avgCompletionTime = completedOrders.stream()
+					.mapToLong(order -> completionTimes.getOrDefault(order, 0L) - simulationStartTime)
+					.average().orElse(0);
+			
 			// Calculate medians
 			List<Long> waitingTimes = completedOrders.stream()
 					.map(order -> startTimes.getOrDefault(order, 0L) - arrivalTimes.getOrDefault(order, 0L))
@@ -221,14 +234,35 @@ public class Barman extends Thread {
 					.map(order -> startTimes.getOrDefault(order, 0L) - arrivalTimes.getOrDefault(order, 0L))
 					.sorted().toList();
 			
+			// Calculate medians for time metrics
+			List<Long> arrivalTimesList = completedOrders.stream()
+					.map(order -> arrivalTimes.getOrDefault(order, 0L) - simulationStartTime)
+					.sorted().toList();
+			
+			List<Long> startTimesList = completedOrders.stream()
+					.map(order -> startTimes.getOrDefault(order, 0L) - simulationStartTime)
+					.sorted().toList();
+			
+			List<Long> completionTimesList = completedOrders.stream()
+					.map(order -> completionTimes.getOrDefault(order, 0L) - simulationStartTime)
+					.sorted().toList();
+			
 			long medianWaitingTime = waitingTimes.get(waitingTimes.size() / 2);
 			long medianTurnaroundTime = turnaroundTimes.get(turnaroundTimes.size() / 2);
 			long medianResponseTime = responseTimes.get(responseTimes.size() / 2);
+			
+			long medianArrivalTime = arrivalTimesList.get(arrivalTimesList.size() / 2);
+			long medianStartTime = startTimesList.get(startTimesList.size() / 2);
+			long medianCompletionTime = completionTimesList.get(completionTimesList.size() / 2);
 			
 			// Calculate maximum values
 			long maxWaitingTime = waitingTimes.get(waitingTimes.size() - 1);
 			long maxTurnaroundTime = turnaroundTimes.get(turnaroundTimes.size() - 1);
 			long maxResponseTime = responseTimes.get(responseTimes.size() - 1);
+			
+			long maxArrivalTime = arrivalTimesList.get(arrivalTimesList.size() - 1);
+			long maxStartTime = startTimesList.get(startTimesList.size() - 1);
+			long maxCompletionTime = completionTimesList.get(completionTimesList.size() - 1);
 			
 			// Average switch count for RR
 			double avgSwitchCount = completedOrders.stream()
@@ -241,6 +275,23 @@ public class Barman extends Thread {
 			writer.write("Context Switch Time: " + switchTime + "\n");
 			writer.write("Total Orders Completed: " + completedOrders.size() + "\n\n");
 			
+			// Add the new time metrics in the same format as existing ones
+			writer.write("--- Arrival Time (from simulation start) ---\n");
+			writer.write(String.format("Average: %.2f ms\n", avgArrivalTime));
+			writer.write(String.format("Median: %d ms\n", medianArrivalTime));
+			writer.write(String.format("Maximum: %d ms\n\n", maxArrivalTime));
+			
+			writer.write("--- Start Time (from simulation start) ---\n");
+			writer.write(String.format("Average: %.2f ms\n", avgStartTime));
+			writer.write(String.format("Median: %d ms\n", medianStartTime));
+			writer.write(String.format("Maximum: %d ms\n\n", maxStartTime));
+			
+			writer.write("--- Completion Time (from simulation start) ---\n");
+			writer.write(String.format("Average: %.2f ms\n", avgCompletionTime));
+			writer.write(String.format("Median: %d ms\n", medianCompletionTime));
+			writer.write(String.format("Maximum: %d ms\n\n", maxCompletionTime));
+			
+			// Original metrics
 			writer.write("--- Waiting Time ---\n");
 			writer.write(String.format("Average: %.2f ms\n", avgWaitingTime));
 			writer.write(String.format("Median: %d ms\n", medianWaitingTime));

@@ -1,0 +1,15 @@
+ITERATION 5
+
+=== Summary Statistics for FCFS ===
+Time Quantum: 10000
+Context Switch Time: 2
+Total Orders Completed: 150
+
+Algorithm	Iteration	Metric			Average		Median		Max
+FCFS		1		Waiting Time		1258,62 ms	1349 ms		2108 ms
+FCFS		1		TurnAround Time		1317,25 ms	1401 ms		2194 ms
+FCFS		1		Response Time		1258,62 ms	1349 ms		2108 ms
+FCFS		1		Completion Time		4719,41 ms	5026 ms		9193 ms
+FCFS		1		Start Time		4660,79 ms	4966 ms		9118 ms
+FCFS		1		Arrival Time		3402,17 ms	3026 ms		8315 ms
+

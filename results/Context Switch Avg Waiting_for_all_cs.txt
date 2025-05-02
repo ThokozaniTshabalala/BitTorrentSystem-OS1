@@ -1,0 +1,6 @@
+Context Switch   Avg Waiting Time   Avg Turnaround Time   Avg Response Time  
+2                1258.46            1317.10               1258.46            
+5                1339.76            1398.42               1339.76            
+10               1469.51            1527.74               1469.51            
+20               1722.49            1781.33               1722.49            
+

@@ -1,0 +1,57 @@
+=== Summary Statistics for FCFS ===
+Time Quantum: 10000
+Context Switch Time: 5
+Total Orders Completed: 150
+
+ITERATION 1
+
+Algorithm	Iteration	Metric			Average		Median		Max
+FCFS		1		Waiting Time		1340,01 ms	1448 ms		2201 ms
+FCFS		1		TurnAround Time		1398,65 ms	1512 ms		2286 ms
+FCFS		1		Response Time		1340,01 ms	1448 ms		2201 ms
+FCFS		1		Completion Time		4938,67 ms	5249 ms		9638 ms
+FCFS		1		Start Time		4880,03 ms	5188 ms		9563 ms
+FCFS		1		Arrival Time		3540,02 ms	3152 ms		8711 ms
+
+
+ITERATION 2
+
+Algorithm	Iteration	Metric			Average		Median		Max
+FCFS		2		Waiting Time		1340,07 ms	1448 ms		2200 ms
+FCFS		2		TurnAround Time		1398,78 ms	1513 ms		2286 ms
+FCFS		2		Response Time		1340,07 ms	1448 ms		2200 ms
+FCFS		2		Completion Time		4938,60 ms	5248 ms		9640 ms
+FCFS		2		Start Time		4879,89 ms	5187 ms		9564 ms
+FCFS		2		Arrival Time		3539,82 ms	3151 ms		8712 ms
+
+ITERATION 3
+
+Algorithm	Iteration	Metric			Average		Median		Max
+FCFS		3		Waiting Time		1339,19 ms	1447 ms		2200 ms
+FCFS		3		TurnAround Time		1397,82 ms	1511 ms		2286 ms
+FCFS		3		Response Time		1339,19 ms	1447 ms		2200 ms
+FCFS		3		Completion Time		4936,60 ms	5248 ms		9632 ms
+FCFS		3		Start Time		4877,97 ms	5187 ms		9557 ms
+FCFS		3		Arrival Time		3538,78 ms	3151 ms		8707 ms
+
+
+ITERATION 4
+
+Algorithm	Iteration	Metric			Average		Median		Max
+FCFS		4		Waiting Time		1339,45 ms	1447 ms		2201 ms
+FCFS		4		TurnAround Time		1398,11 ms	1512 ms		2286 ms
+FCFS		4		Response Time		1339,45 ms	1447 ms		2201 ms
+FCFS		4		Completion Time		4937,68 ms	5247 ms		9636 ms
+FCFS		4		Start Time		4879,02 ms	5187 ms		9561 ms
+FCFS		4		Arrival Time		3539,57 ms	3152 ms		8709 ms
+
+ITERATION 5
+
+Algorithm	Iteration	Metric			Average		Median		Max
+FCFS		5		Waiting Time		1340,12 ms	1450 ms		2201 ms
+FCFS		5		TurnAround Time		1398,75 ms	1514 ms		2286 ms
+FCFS		5		Response Time		1340,12 ms	1450 ms		2201 ms
+FCFS		5		Completion Time		4938,77 ms	5247 ms		9641 ms
+FCFS		5		Start Time		4880,13 ms	5187 ms		9566 ms
+FCFS		5		Arrival Time		3540,01 ms	3151 ms		8713 ms
+

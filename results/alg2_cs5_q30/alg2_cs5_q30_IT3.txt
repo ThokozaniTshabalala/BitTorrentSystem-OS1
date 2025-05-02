@@ -1,0 +1,17 @@
+ITERATION 3
+
+=== Summary Statistics for RR ===
+Time Quantum: 30
+Context Switch Time: 5
+Total Orders Completed: 150
+Context Switches
+Average switches per order: 1,32
+
+Algorithm    Iteration    Metric                Average        Median    Max
+RR           3           Waiting Time          605,69 ms      708 ms    924 ms
+RR           3           Turnaround Time       1526,89 ms     1184 ms   5965 ms
+RR           3           Response Time         605,69 ms      708 ms    924 ms
+RR           3           Completion Time       5661,09 ms     5911 ms   10709 ms
+RR           3           Start Time            4739,89 ms     4478 ms   10622 ms
+RR           3           Arrival Time          4134,20 ms     3622 ms   10622 ms
+

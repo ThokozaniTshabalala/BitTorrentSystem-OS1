@@ -1,0 +1,15 @@
+ITERATION 1
+
+=== Summary Statistics for SJF ===
+Time Quantum: 10000
+Context Switch Time: 5
+Total Orders Completed: 150
+
+Algorithm    Iteration    Metric            Average        Median    Max
+SJF          1           Waiting Time      783,85 ms      73 ms     8334 ms
+SJF          1           Turnaround Time   842,47 ms      126 ms    8534 ms
+SJF          1           Response Time     783,85 ms      73 ms     8334 ms
+SJF          1           Completion Time   4150,51 ms     3795 ms   9806 ms
+SJF          1           Start Time        4091,89 ms     3775 ms   9731 ms
+SJF          1           Arrival Time      3308,05 ms     2542 ms   9731 ms
+

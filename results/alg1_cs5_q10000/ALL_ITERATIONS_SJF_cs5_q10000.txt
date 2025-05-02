@@ -1,0 +1,54 @@
+=== Summary Statistics for SJF ===
+Time Quantum: 10000
+Context Switch Time: 5
+Total Orders Completed: 150
+
+ITERATION 1
+
+Algorithm    Iteration    Metric            Average        Median    Max
+SJF          1           Waiting Time      783,85 ms      73 ms     8334 ms
+SJF          1           Turnaround Time   842,47 ms      126 ms    8534 ms
+SJF          1           Response Time     783,85 ms      73 ms     8334 ms
+SJF          1           Completion Time   4150,51 ms     3795 ms   9806 ms
+SJF          1           Start Time        4091,89 ms     3775 ms   9731 ms
+SJF          1           Arrival Time      3308,05 ms     2542 ms   9731 ms
+
+ITERATION 2
+
+Algorithm    Iteration    Metric            Average        Median    Max
+SJF          2           Waiting Time      783,87 ms      72 ms     8334 ms
+SJF          2           Turnaround Time   842,59 ms      126 ms    8534 ms
+SJF          2           Response Time     783,87 ms      72 ms     8334 ms
+SJF          2           Completion Time   4151,13 ms     3795 ms   9807 ms
+SJF          2           Start Time        4092,40 ms     3775 ms   9731 ms
+SJF          2           Arrival Time      3308,53 ms     2544 ms   9731 ms
+
+ITERATION 3
+
+Algorithm    Iteration    Metric            Average        Median    Max
+SJF          3           Waiting Time      783,99 ms      72 ms     8334 ms
+SJF          3           Turnaround Time   842,59 ms      126 ms    8535 ms
+SJF          3           Response Time     783,99 ms      72 ms     8334 ms
+SJF          3           Completion Time   4150,18 ms     3794 ms   9806 ms
+SJF          3           Start Time        4091,59 ms     3774 ms   9731 ms
+SJF          3           Arrival Time      3307,59 ms     2543 ms   9731 ms
+
+ITERATION 4
+
+Algorithm    Iteration    Metric            Average        Median    Max
+SJF          4           Waiting Time      783,48 ms      72 ms     8332 ms
+SJF          4           Turnaround Time   842,08 ms      126 ms    8532 ms
+SJF          4           Response Time     783,48 ms      72 ms     8332 ms
+SJF          4           Completion Time   4149,20 ms     3792 ms   9804 ms
+SJF          4           Start Time        4090,60 ms     3772 ms   9729 ms
+SJF          4           Arrival Time      3307,12 ms     2542 ms   9729 ms
+
+ITERATION 5
+
+Algorithm    Iteration    Metric            Average        Median    Max
+SJF          5           Waiting Time      783,13 ms      72 ms     8329 ms
+SJF          5           Turnaround Time   841,82 ms      125 ms    8529 ms
+SJF          5           Response Time     783,13 ms      72 ms     8329 ms
+SJF          5           Completion Time   4147,88 ms     3792 ms   9801 ms
+SJF          5           Start Time        4089,19 ms     3771 ms   9726 ms
+SJF          5           Arrival Time      3306,06 ms     2541 ms   9726 ms

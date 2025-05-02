@@ -3,17 +3,32 @@ Time Quantum: 10000
 Context Switch Time: 2
 Total Orders Completed: 150
 
+--- Arrival Time (from simulation start) ---
+Average: 3403,24 ms
+Median: 3027 ms
+Maximum: 8315 ms
+
+--- Start Time (from simulation start) ---
+Average: 4662,01 ms
+Median: 4969 ms
+Maximum: 9118 ms
+
+--- Completion Time (from simulation start) ---
+Average: 4720,66 ms
+Median: 5029 ms
+Maximum: 9193 ms
+
 --- Waiting Time ---
-Average: 1258,23 ms
-Median: 1348 ms
-Maximum: 2108 ms
+Average: 1258,77 ms
+Median: 1347 ms
+Maximum: 2109 ms
 
 --- Turnaround Time ---
-Average: 1316,87 ms
-Median: 1401 ms
-Maximum: 2193 ms
+Average: 1317,42 ms
+Median: 1402 ms
+Maximum: 2195 ms
 
 --- Response Time ---
-Average: 1258,23 ms
-Median: 1348 ms
-Maximum: 2108 ms
+Average: 1258,77 ms
+Median: 1347 ms
+Maximum: 2109 ms

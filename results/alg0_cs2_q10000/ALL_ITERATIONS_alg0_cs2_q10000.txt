@@ -1,0 +1,54 @@
+=== Summary Statistics for FCFS ===
+Time Quantum: 10000
+Context Switch Time: 2
+Total Orders Completed: 150
+
+ITERATION 1
+
+Algorithm	Iteration	Metric			Average		Median		Max
+FCFS		1		Waiting Time		1258,77 ms	1347 ms		2109 ms
+FCFS		1		TurnAround Time		1317,42 ms	1402 ms		2195 ms
+FCFS		1		Response Time		1258,77 ms	1347 ms		2109 ms
+FCFS		1		Completion Time		4720,66 ms	5029 ms		9193 ms
+FCFS		1		Start Time		4662,01 ms	4969 ms		9118 ms
+FCFS		1		Arrival Time		3403,24 ms	3027 ms		8315 ms
+
+ITERATION 2
+
+Algorithm	Iteration	Metric			Average		Median		Max
+FCFS		2		Waiting Time		1258,46 ms	1347 ms		2108 ms
+FCFS		2		TurnAround Time		1317,07 ms	1401 ms		2193 ms
+FCFS		2		Response Time		1258,46 ms	1347 ms		2108 ms
+FCFS		2		Completion Time		4719,73 ms	5027 ms		9191 ms
+FCFS		2		Start Time		4661,12 ms	4967 ms		9116 ms
+FCFS		2		Arrival Time		3402,66 ms	3026 ms		8313 ms
+
+ITERATION 3
+
+Algorithm	Iteration	Metric			Average		Median		Max
+FCFS		3		Waiting Time		1258,43 ms	1348 ms		2108 ms
+FCFS		3		TurnAround Time		1317,07 ms	1402 ms		2193 ms
+FCFS		3		Response Time		1258,43 ms	1348 ms		2108 ms
+FCFS		3		Completion Time		4720,79 ms	5028 ms		9192 ms
+FCFS		3		Start Time		4662,15 ms	4968 ms		9117 ms
+FCFS		3		Arrival Time		3403,72 ms	3028 ms		8315 ms
+
+ITERATION 4
+
+Algorithm	Iteration	Metric			Average		Median		Max
+FCFS		4		Waiting Time		1258,05 ms	1346 ms		2108 ms
+FCFS		4		TurnAround Time		1316,68 ms	1401 ms		2193 ms
+FCFS		4		Response Time		1258,05 ms	1346 ms		2108 ms
+FCFS		4		Completion Time		4718,53 ms	5026 ms		9189 ms
+FCFS		4		Start Time		4659,91 ms	4966 ms		9114 ms
+FCFS		4		Arrival Time		3401,85 ms	3026 ms		8312 ms
+
+ITERATION 5
+
+Algorithm	Iteration	Metric			Average		Median		Max
+FCFS		5		Waiting Time		1258,62 ms	1349 ms		2108 ms
+FCFS		5		TurnAround Time		1317,25 ms	1401 ms		2194 ms
+FCFS		5		Response Time		1258,62 ms	1349 ms		2108 ms
+FCFS		5		Completion Time		4719,41 ms	5026 ms		9193 ms
+FCFS		5		Start Time		4660,79 ms	4966 ms		9118 ms
+FCFS		5		Arrival Time		3402,17 ms	3026 ms		8315 ms

@@ -1,0 +1,89 @@
+=== Summary Statistics for RR ===
+Time Quantum: 10
+Context Switch Time: 5
+Total Orders Completed: 150
+Context Switches
+Average switches per order: 5,06
+
+Metric	Average (ms)
+Waiting Time	303.13
+Turnaround Time	1985.13
+Response Time	303.13
+Completion Time	7317.49
+Start Time	5635.02
+Arrival Time	5325.95
+
+=== Summary Statistics for RR ===
+Time Quantum: 20
+Context Switch Time: 5
+Total Orders Completed: 150
+Context Switches
+Average switches per order: 2,27
+
+Metric	Average (ms)
+Waiting Time	466.11
+Turnaround Time	1659.91
+Response Time	466.11
+Completion Time	6105.71
+Start Time	4916.31
+Arrival Time	4453.80
+
+=== Summary Statistics for RR ===
+Time Quantum: 30
+Context Switch Time: 5
+Total Orders Completed: 150
+Context Switches
+Average switches per order: 1,32
+
+Metric	Average (ms)
+Waiting Time	611.69
+Turnaround Time	1541.50
+Response Time	611.69
+Completion Time	5662.37
+Start Time	4730.47
+Arrival Time	4121.87
+
+=== Summary Statistics for RR ===
+Time Quantum: 50
+Context Switch Time: 5
+Total Orders Completed: 150
+Context Switches
+Average switches per order: 0,59
+
+Metric	Average (ms)
+Waiting Time	847.99
+Turnaround Time	1442.28
+Response Time	847.99
+Completion Time	5283.22
+Start Time	4690.95
+Arrival Time	3840.92
+
+=== Summary Statistics for RR ===
+Time Quantum: 75
+Context Switch Time: 5
+Total Orders Completed: 150
+Context Switches
+Average switches per order: 0,21
+
+Metric	Average (ms)
+Waiting Time	1127.37
+Turnaround Time	1432.67
+Response Time	1127.37
+Completion Time	5039.62
+Start Time	4734.21
+Arrival Time	3607.12
+
+=== Summary Statistics for RR ===
+Time Quantum: 100
+Context Switch Time: 5
+Total Orders Completed: 150
+Context Switches
+Average switches per order: 0,05
+
+Metric	Average (ms)
+Waiting Time	1270.80
+Turnaround Time	1399.27
+Response Time	1270.80
+Completion Time	4916.71
+Start Time	4788.30
+Arrival Time	3517.83
